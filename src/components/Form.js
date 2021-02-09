@@ -30,6 +30,7 @@ export default function Form({ todos, setTodos }) {
     <form onSubmit={handleSubmit}>
       <InputField
         type='text'
+        placeholder='Add new todo'
         value={input}
         onChange={e => setInput(e.target.value)}
       />
